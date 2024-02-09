@@ -1,0 +1,2 @@
+start "kill.bat"
+then start "script.bat"

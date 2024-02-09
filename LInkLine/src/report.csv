@@ -1,0 +1,350 @@
+TestId,Command,Response,Expected Response, Results
+**********Connect - Serial Port Settings**********
+1,set serial data1 alias testalias,,,PASS
+2,set serial data1 alias,alias                           = testalias,testalias,PASS
+3,set serial data1 stopbits 1,,,PASS
+4,set serial data1 stopbits,stopbits                        = 1,stopbits                        = 1,PASS
+5,set serial data1 stopbits 2,,,PASS
+6,set serial data1 stopbits,stopbits                        = 2,stopbits                        = 2,PASS
+7,set serial data1 baudrate 75,,,PASS
+8,set serial data1 baudrate,baudrate                        = 75,baudrate                        = 75,PASS
+7,set serial data1 baudrate 110,,,PASS
+8,set serial data1 baudrate,baudrate                        = 110,baudrate                        = 110,PASS
+7,set serial data1 baudrate 134,,,PASS
+8,set serial data1 baudrate,baudrate                        = 134,baudrate                        = 134,PASS
+7,set serial data1 baudrate 150,,,PASS
+8,set serial data1 baudrate,baudrate                        = 150,baudrate                        = 150,PASS
+7,set serial data1 baudrate 200,,,PASS
+8,set serial data1 baudrate,baudrate                        = 200,baudrate                        = 200,PASS
+7,set serial data1 baudrate 200,,,PASS
+8,set serial data1 baudrate,baudrate                        = 200,baudrate                        = 200,PASS
+7,set serial data1 baudrate 300,,,PASS
+8,set serial data1 baudrate,baudrate                        = 300,baudrate                        = 300,PASS
+7,set serial data1 baudrate 600,,,PASS
+8,set serial data1 baudrate,baudrate                        = 600,baudrate                        = 600,PASS
+7,set serial data1 baudrate 1200,,,PASS
+8,set serial data1 baudrate,baudrate                        = 1200,baudrate                        = 1200,PASS
+7,set serial data1 baudrate 1800,,,PASS
+8,set serial data1 baudrate,baudrate                        = 1800,baudrate                        = 1800,PASS
+7,set serial data1 baudrate 2400,,,PASS
+8,set serial data1 baudrate,baudrate                        = 2400,baudrate                        = 2400,PASS
+7,set serial data1 baudrate 4800,,,PASS
+8,set serial data1 baudrate,baudrate                        = 4800,baudrate                        = 4800,PASS
+7,set serial data1 baudrate 9600,,,PASS
+8,set serial data1 baudrate,baudrate                        = 9600,baudrate                        = 9600,PASS
+7,set serial data1 baudrate 19200,,,PASS
+8,set serial data1 baudrate,baudrate                        = 19200,baudrate                        = 19200,PASS
+7,set serial data1 baudrate 38400,,,PASS
+8,set serial data1 baudrate,baudrate                        = 38400,baudrate                        = 38400,PASS
+7,set serial data1 baudrate 57600,,,PASS
+8,set serial data1 baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial data1 baudrate 57600,,,PASS
+8,set serial data1 baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial data1 baudrate 115200,,,PASS
+8,set serial data1 baudrate,baudrate                        = 115200,baudrate                        = 115200,PASS
+7,set serial data1 parity even,,,PASS
+7,set serial data1 parity,parity                          = even,even,PASS
+7,set serial data1 parity odd,,,PASS
+7,set serial data1 parity,parity                          = odd,odd,PASS
+7,set serial data1 parity none,,,PASS
+7,set serial data1 parity,parity                          = none,none,PASS
+3,set serial data1 databits 5,,,PASS
+4,set serial data1 databits,databits                        = 5,databits                        = 5,PASS
+3,set serial data1 databits 6,,,PASS
+4,set serial data1 databits,databits                        = 6,databits                        = 6,PASS
+3,set serial data1 databits 7,,,PASS
+4,set serial data1 databits,databits                        = 7,databits                        = 7,PASS
+3,set serial data1 databits 8,,,PASS
+4,set serial data1 databits,databits                        = 8,databits                        = 8,PASS
+3,set serial data1 interface rs232,,,PASS
+4,set serial data1 interface,interface                       = rs232,rs232,PASS
+3,set serial data1 interface rs422,,,PASS
+4,set serial data1 interface,interface                       = rs422,rs422,PASS
+3,set serial data1 interface rs232,,,PASS
+4,set serial data1 interface,interface                       = rs232,rs232,PASS
+3,set serial data1 interface rs232,,,PASS
+4,set serial data1 interface,interface                       = rs232,rs232,PASS
+3,set serial data1 interface rs485-4w,,,PASS
+4,set serial data1 interface,interface                       = rs485-4w,rs485-4w,PASS
+3,set serial data1 interface rs485-2w,,,PASS
+4,set serial data1 interface,interface                       = rs485-2w,rs485-2w,PASS
+3,set serial data1 interface loopback,,,PASS
+4,set serial data1 interface,interface                       = loopback,loopback,PASS
+1,set serial data2 alias testalias,,,PASS
+2,set serial data2 alias,alias                           = testalias,testalias,PASS
+3,set serial data2 stopbits 1,,,PASS
+4,set serial data2 stopbits,stopbits                        = 1,stopbits                        = 1,PASS
+5,set serial data2 stopbits 2,,,PASS
+6,set serial data2 stopbits,stopbits                        = 2,stopbits                        = 2,PASS
+7,set serial data2 baudrate 75,,,PASS
+8,set serial data2 baudrate,baudrate                        = 75,baudrate                        = 75,PASS
+7,set serial data2 baudrate 110,,,PASS
+8,set serial data2 baudrate,baudrate                        = 110,baudrate                        = 110,PASS
+7,set serial data2 baudrate 134,,,PASS
+8,set serial data2 baudrate,baudrate                        = 134,baudrate                        = 134,PASS
+7,set serial data2 baudrate 150,,,PASS
+8,set serial data2 baudrate,baudrate                        = 150,baudrate                        = 150,PASS
+7,set serial data2 baudrate 200,,,PASS
+8,set serial data2 baudrate,baudrate                        = 200,baudrate                        = 200,PASS
+7,set serial data2 baudrate 200,,,PASS
+8,set serial data2 baudrate,baudrate                        = 200,baudrate                        = 200,PASS
+7,set serial data2 baudrate 300,,,PASS
+8,set serial data2 baudrate,baudrate                        = 300,baudrate                        = 300,PASS
+7,set serial data2 baudrate 600,,,PASS
+8,set serial data2 baudrate,baudrate                        = 600,baudrate                        = 600,PASS
+7,set serial data2 baudrate 1200,,,PASS
+8,set serial data2 baudrate,baudrate                        = 1200,baudrate                        = 1200,PASS
+7,set serial data2 baudrate 1800,,,PASS
+8,set serial data2 baudrate,baudrate                        = 1800,baudrate                        = 1800,PASS
+7,set serial data2 baudrate 2400,,,PASS
+8,set serial data2 baudrate,baudrate                        = 2400,baudrate                        = 2400,PASS
+7,set serial data2 baudrate 4800,,,PASS
+8,set serial data2 baudrate,baudrate                        = 4800,baudrate                        = 4800,PASS
+7,set serial data2 baudrate 9600,,,PASS
+8,set serial data2 baudrate,baudrate                        = 9600,baudrate                        = 9600,PASS
+7,set serial data2 baudrate 19200,,,PASS
+8,set serial data2 baudrate,baudrate                        = 19200,baudrate                        = 19200,PASS
+7,set serial data2 baudrate 38400,,,PASS
+8,set serial data2 baudrate,baudrate                        = 38400,baudrate                        = 38400,PASS
+7,set serial data2 baudrate 57600,,,PASS
+8,set serial data2 baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial data2 baudrate 57600,,,PASS
+8,set serial data2 baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial data2 baudrate 115200,,,PASS
+8,set serial data2 baudrate,baudrate                        = 115200,baudrate                        = 115200,PASS
+7,set serial data2 parity even,,,PASS
+7,set serial data2 parity,parity                          = even,even,PASS
+7,set serial data2 parity odd,,,PASS
+7,set serial data2 parity,parity                          = odd,odd,PASS
+7,set serial data2 parity none,,,PASS
+7,set serial data2 parity,parity                          = none,none,PASS
+3,set serial data2 databits 5,,,PASS
+4,set serial data2 databits,databits                        = 5,databits                        = 5,PASS
+3,set serial data2 databits 6,,,PASS
+4,set serial data2 databits,databits                        = 6,databits                        = 6,PASS
+3,set serial data2 databits 7,,,PASS
+4,set serial data2 databits,databits                        = 7,databits                        = 7,PASS
+3,set serial data2 databits 8,,,PASS
+4,set serial data2 databits,databits                        = 8,databits                        = 8,PASS
+3,set serial data2 interface rs232,,,PASS
+4,set serial data2 interface,interface                       = rs232,s232,PASS
+3,set serial data2 interface rs422,,,PASS
+4,set serial data2 interface,interface                       = rs422,rs422,PASS
+3,set serial data2 interface rs232,,,PASS
+4,set serial data2 interface,interface                       = rs232,rs232,PASS
+3,set serial data2 interface rs232,,,PASS
+4,set serial data2 interface,interface                       = rs232,rs232,PASS
+3,set serial data2 interface rs485-4w,,,PASS
+4,set serial data2 interface,interface                       = rs485-4w,rs485-4w,PASS
+3,set serial data2 interface rs485-2w,,,PASS
+4,set serial data2 interface,interface                       = rs485-2w,rs485-2w,PASS
+3,set serial data2 interface loopback,,,PASS
+4,set serial data2 interface,interface                       = loopback,loopback,PASS
+1,set serial console alias testalias,,,PASS
+2,set serial console alias,alias                           = testalias,testalias,PASS
+3,set serial console stopbits 1,,,PASS
+4,set serial console stopbits,stopbits                        = 1,stopbits                        = 1,PASS
+5,set serial console stopbits 2,,,PASS
+6,set serial console stopbits,stopbits                        = 2,stopbits                        = 2,PASS
+7,set serial console baudrate 75,,,PASS
+8,set serial console baudrate,baudrate                        = 75,baudrate                        = 75,PASS
+7,set serial console baudrate 110,,,PASS
+8,set serial console baudrate,baudrate                        = 110,baudrate                        = 110,PASS
+7,set serial console baudrate 134,,,PASS
+8,set serial console baudrate,baudrate                        = 134,baudrate                        = 134,PASS
+7,set serial console baudrate 150,,,PASS
+8,set serial console baudrate,baudrate                        = 150,baudrate                        = 150,PASS
+7,set serial console baudrate 200,,,PASS
+8,set serial console baudrate,baudrate                        = 200,baudrate                        = 200,PASS
+7,set serial console baudrate 300,,,PASS
+8,set serial console baudrate,baudrate                        = 300,baudrate                        = 300,PASS
+7,set serial console baudrate 600,,,PASS
+8,set serial console baudrate,baudrate                        = 600,baudrate                        = 600,PASS
+7,set serial console baudrate 1200,,,PASS
+8,set serial console baudrate,baudrate                        = 1200,baudrate                        = 1200,PASS
+7,set serial console baudrate 1800,,,PASS
+8,set serial console baudrate,baudrate                        = 1800,baudrate                        = 1800,PASS
+7,set serial console baudrate 2400,,,PASS
+8,set serial console baudrate,baudrate                        = 2400,baudrate                        = 2400,PASS
+7,set serial console baudrate 4800,,,PASS
+8,set serial console baudrate,baudrate                        = 4800,baudrate                        = 4800,PASS
+7,set serial console baudrate 9600,,,PASS
+8,set serial console baudrate,baudrate                        = 9600,baudrate                        = 9600,PASS
+7,set serial console baudrate 19200,,,PASS
+8,set serial console baudrate,baudrate                        = 19200,baudrate                        = 19200,PASS
+7,set serial console baudrate 38400,,,PASS
+8,set serial console baudrate,baudrate                        = 38400,baudrate                        = 38400,PASS
+7,set serial console baudrate 57600,,,PASS
+8,set serial console baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial console baudrate 57600,,,PASS
+8,set serial console baudrate,baudrate                        = 57600,baudrate                        = 57600,PASS
+7,set serial console baudrate 115200,,,PASS
+8,set serial console baudrate,baudrate                        = 115200,baudrate                        = 115200,PASS
+7,set serial console parity even,,,PASS
+7,set serial console parity,parity                          = even,even,PASS
+7,set serial console parity odd,,,PASS
+7,set serial console parity,parity                          = odd,odd,PASS
+7,set serial console parity none,,,PASS
+7,set serial console parity,parity                          = none,none,PASS
+3,set serial console databits 5,,,PASS
+4,set serial console databits,databits                        = 5,databits                        = 5,PASS
+3,set serial console databits 6,,,PASS
+4,set serial console databits,databits                        = 6,databits                        = 6,PASS
+3,set serial console databits 7,,,PASS
+4,set serial console databits,databits                        = 7,databits                        = 7,PASS
+3,set serial console databits 8,,,PASS
+4,set serial console databits,databits                        = 8,databits                        = 8,PASS
+3,set serial console interface rs232,,,PASS
+4,set serial console interface,interface                       = rs232,rs232,PASS
+3,set serial console interface rs422,,,PASS
+4,set serial console interface,interface                       = rs422,rs422,PASS
+3,set serial console interface rs232,,,PASS
+4,set serial console interface,interface                       = rs232,rs232,PASS
+3,set serial console interface rs232,,,PASS
+4,set serial console interface,interface                       = rs232,rs232,PASS
+3,set serial console interface rs485-4w,,,PASS
+4,set serial console interface,interface                       = rs485-4w,rs485-4w,PASS
+3,set serial console interface rs485-2w,,,PASS
+4,set serial console interface,interface                       = rs485-2w,rs485-2w,PASS
+3,set serial console interface loopback,,,PASS
+4,set serial console interface,interface                       = loopback,loopback,PASS
+**********Connect - Gateway Settings**********
+1,set vgateway 1 mode inactive,,,PASS
+1,set vgateway 1 mode,mode                            = inactive,inactive,PASS
+1,set vgateway 1 mode tcpserver,,,PASS
+1,set vgateway 1 mode,mode                            = tcpserver,tcpserver,PASS
+1,set vgateway 1 rawtcpserver datapacking packetlength 950,,,PASS
+1,set vgateway 1 rawtcpserver datapacking packetlength,packetlength                    = 950, 950,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable off,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable,delimiter1enable                = off,delimiter1enable                = off,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable on,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable,delimiter1enable                = on,delimiter1enable                = on,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable off,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable,delimiter2enable                = off,delimiter2enable                = off,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable on,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable,delimiter2enable                = on,delimiter2enable                = on,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1 0xaa,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter1,delimiter1                      = 0xaa,0xaa,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2 0xaf,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiter2,delimiter2                      = 0xaf,0xaf,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction act1,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,delimiteraction                 = act1,act1,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction act2,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,delimiteraction                 = act2,act2,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction nothing,,,PASS
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,delimiteraction                 = nothing,nothing,PASS
+1,set vgateway 1 rawtcpserver datapacking forcetransmit 300,,,PASS
+1,set vgateway 1 rawtcpserver datapacking forcetransmit 200,,,PASS
+1,set vgateway 1 rawtcpserver datapacking forcetransmit,forcetransmit                   = 200,200,PASS
+1,set vgateway 1 rawtcpserver datapacking lowLatency off,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,,FAIL
+1,set vgateway 1 rawtcpserver datapacking lowLatency,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,lowLatency                = off,FAIL
+1,set vgateway 1 rawtcpserver datapacking lowLatency on,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,,FAIL
+1,set vgateway 1 rawtcpserver datapacking lowLatency,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,lowLatency                = on,FAIL
+1,set vgateway 1 rawtcpserver drivercontrol off,,,PASS
+1,set vgateway 1 rawtcpserver drivercontrol,drivercontrol                   = off,drivercontrol                   = off,PASS
+1,set vgateway 1 rawtcpserver drivercontrol on,,,PASS
+1,set vgateway 1 rawtcpserver drivercontrol,drivercontrol                   = on,drivercontrol                   = on,PASS
+1,set vgateway 1 rawtcpserver cmdport 2000,,,PASS
+1,set vgateway 1 rawtcpserver cmdport 1000,Error: Invalid value 1000 !,,FAIL
+1,set vgateway 1 rawtcpserver cmdport,cmdport                         = 2000,1000,FAIL
+1,set vgateway 1 rawtcpserver ignorejamip off,,,PASS
+1,set vgateway 1 rawtcpserver ignorejamip,ignorejamip                     = off,ignorejamip                     = off,PASS
+1,set vgateway 1 rawtcpserver ignorejamip on,,,PASS
+1,set vgateway 1 rawtcpserver ignorejamip,ignorejamip                     = on,ignorejamip                     = on,PASS
+1,set vgateway 1 rawtcpserver inactivitytime 10,,,PASS
+1,set vgateway 1 rawtcpserver inactivitytime 2,,,PASS
+1,set vgateway 1 rawtcpserver inactivitytime,inactivitytime                  = 2, 2,PASS
+1,set vgateway 1 rawtcpserver localport 5500,,,PASS
+1,set vgateway 1 rawtcpserver localport 5000,,,PASS
+1,set vgateway 1 rawtcpserver localport,localport                       = 5000,5000,PASS
+1,set vgateway 1 rawtcpserver maxconnections 5,,,PASS
+1,set vgateway 1 rawtcpserver maxconnections 6,,,PASS
+1,set vgateway 1 rawtcpserver maxconnections,maxconnections                  = 6,6,PASS
+1,set vgateway 1 serialport data1,,,PASS
+1,set vgateway 1 serialport,serialport                      = data1,data1,PASS
+1,set vgateway 1 serialport data2,,,PASS
+1,set vgateway 1 serialport,serialport                      = data2,data2,PASS
+1,set vgateway 1 serialport unassigned,,,PASS
+1,set vgateway 1 serialport,serialport                      = unassigned,unassigned,PASS
+1,set vgateway 2 mode inactive,, ,FAIL
+1,set vgateway 2 mode,mode                            = inactive,inactive ,FAIL
+1,set vgateway 2 mode tcpserver,, ,FAIL
+1,set vgateway 2 mode,mode                            = tcpserver,tcpserver ,FAIL
+1,set vgateway 2 rawtcpserver datapacking packetlength 950,,,PASS
+1,set vgateway 2 rawtcpserver datapacking packetlength,packetlength                    = 950, 950,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable off,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable,delimiter1enable                = off,delimiter1enable                = off,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable on,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable,delimiter1enable                = on,delimiter1enable                = on,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable off,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable,delimiter2enable                = off,delimiter2enable                = off,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable on,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable,delimiter2enable                = on,delimiter2enable                = on,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1 0xaa,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter1,delimiter1                      = 0xaa,0xaa,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2 0xaf,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiter2,delimiter2                      = 0xaf,0xaf,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction act1,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,delimiteraction                 = act1,act1,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction act2,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,delimiteraction                 = act2,act2,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction nothing,,,PASS
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,delimiteraction                 = nothing,nothing,PASS
+1,set vgateway 2 rawtcpserver datapacking forcetransmit 300,,,PASS
+1,set vgateway 2 rawtcpserver datapacking forcetransmit 200,,,PASS
+1,set vgateway 2 rawtcpserver datapacking forcetransmit,forcetransmit                   = 200,200,PASS
+1,set vgateway 2 rawtcpserver datapacking lowLatency off,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,,FAIL
+1,set vgateway 2 rawtcpserver datapacking lowLatency,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,lowLatency                = off,FAIL
+1,set vgateway 2 rawtcpserver datapacking lowLatency on,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,,FAIL
+1,set vgateway 2 rawtcpserver datapacking lowLatency,                                             ^Error: Invalid parameter. Syntax: datapacking  datapacking          - Set | Show the Data Packing settings.,lowLatency                = on,FAIL
+1,set vgateway 2 rawtcpserver drivercontrol off,,,PASS
+1,set vgateway 2 rawtcpserver drivercontrol,drivercontrol                   = off,drivercontrol                   = off,PASS
+1,set vgateway 2 rawtcpserver drivercontrol on,,,PASS
+1,set vgateway 2 rawtcpserver drivercontrol,drivercontrol                   = on,drivercontrol                   = on,PASS
+1,set vgateway 2 rawtcpserver cmdport 2000,,,PASS
+1,set vgateway 2 rawtcpserver cmdport 1000,Error: Invalid value 1000 !,,FAIL
+1,set vgateway 2 rawtcpserver cmdport,cmdport                         = 2000,1000,FAIL
+1,set vgateway 2 rawtcpserver ignorejamip off,,,PASS
+1,set vgateway 2 rawtcpserver ignorejamip,ignorejamip                     = off,ignorejamip                     = off,PASS
+1,set vgateway 2 rawtcpserver ignorejamip on,,,PASS
+1,set vgateway 2 rawtcpserver ignorejamip,ignorejamip                     = on,ignorejamip                     = on,PASS
+1,set vgateway 2 rawtcpserver inactivitytime 10,,,PASS
+1,set vgateway 2 rawtcpserver inactivitytime 2,,,PASS
+1,set vgateway 2 rawtcpserver inactivitytime,inactivitytime                  = 2, 2,PASS
+1,set vgateway 2 rawtcpserver localport 5500,,,PASS
+1,set vgateway 2 rawtcpserver localport,localport                       = 5500,5500,PASS
+1,set vgateway 2 rawtcpserver localport 5000,,,PASS
+1,set vgateway 2 rawtcpserver localport,localport                       = 5000,5000,PASS
+1,set vgateway 2 rawtcpserver maxconnections 5,,,PASS
+1,set vgateway 2 rawtcpserver maxconnections 6,,,PASS
+1,set vgateway 2 rawtcpserver maxconnections,maxconnections                  = 6,6,PASS
+1,set vgateway 2 serialport data1,,,PASS
+1,set vgateway 2 serialport,serialport                      = data1,data1,PASS
+1,set vgateway 2 serialport data2,,,PASS
+1,set vgateway 2 serialport,serialport                      = data2,data2,PASS
+1,set vgateway 2 serialport unassigned,,,PASS
+1,set vgateway 2 serialport,serialport                      = unassigned,unassigned,PASS
+**********Connect - System Configuration**********
+1,set syslog off,,,PASS
+1,set syslog,syslog                          = off,off,PASS
+1,set syslog on,,,PASS
+1,set syslog,syslog                          = on,on,PASS
+1,set syslogip 192.168.25.22,,,PASS
+1,set syslogip,syslogip                        = 192.168.25.22,192.168.25.22,PASS
+1,set sysname Connectx,,,PASS
+1,set sysname Connectxxx,,,PASS
+1,set sysname,sysname                         = Connectxxx,Connectxxx,PASS
+1,set sysdetails Redline1,,,PASS
+1,set sysdetails Redline2,,,PASS
+1,set sysdetails,sysdetails                      = Redline2,Redline2,PASS
+1,set sysloc CraiovaCity1,,,PASS
+1,set sysloc,sysloc                          = CraiovaCity1,CraiovaCity1,PASS
+1,set sysloc CraiovaCity,,,PASS
+1,set sysloc,sysloc                          = CraiovaCity,CraiovaCity,PASS
+1,set syscontact Alex1,,,PASS
+1,set syscontact,syscontact                      = Alex1,Alex1,PASS
+1,set syscontact Alex2,,,PASS
+1,set syscontact,syscontact                      = Alex2,Alex2,PASS
+1,get mac,mac                             = 00:09:02:14:04:90,,PASS
+1,get swver,swver                           = "APP: 0.90.0.14; MC: 0.9.0.5" (other: "APP: 0.90.0.12; MC: 0.9.0.5"),,PASS
+2,get sysuptime,sysuptime                       = 0:00:52:39,,PASS

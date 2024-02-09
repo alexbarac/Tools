@@ -1,0 +1,16 @@
+name, testFile, template, enable
+Clear, C:/IxResources/TestResources/MP/CliRegression/T502_R4/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionLinks_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionGroups_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Provisioning Connections R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionConnections_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/T502_R4/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionLinks_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionGroups_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Provisioning Connections R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ProvisionConnections_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/T502_R4/Clear.csv, WirelessSecurityResourceTmpl,true
+Wireless Config R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/WirelessConfigResource_R4.csv, WirelessConfigResourceTmpl,true
+Wireless Security R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/WirelessSecurityResource_R4.csv, WirelessSecurityResourceTmpl,true
+User Management R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/UsersMgmtResource_R4.csv, WirelessSecurityResourceTmpl,true
+System Config R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/SysConfigResource_R4.csv, SysConfigResourceTmpl,true
+CP Config1 R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ALL_CP8_CHSIZE1.csv, WirelessSecurityResourceTmpl,true
+CP Config2 R4, C:/IxResources/TestResources/MP/CliRegression/T502_R4/ALL_CP8_CHSIZE2.csv, WirelessSecurityResourceTmpl,true

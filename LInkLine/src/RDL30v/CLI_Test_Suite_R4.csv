@@ -1,0 +1,26 @@
+name, testFile, template, enable
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Provisioning Connections R4 3|7|14, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionConnections_R4_3714.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Provisioning Connections R4 5|10|20, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionConnections_R4_51020.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+ProvisionLinks_R4_smallch, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_smallch.csv, WirelessSecurityResourceTmpl,true
+ProvisionGroups_R4_smallch, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_smallch.csv, WirelessSecurityResourceTmpl,true
+ProvisionConnections_R4_smallch, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionConnections_R4_smallch.csv, WirelessSecurityResourceTmpl,true
+Wireless Config R4, C:/IxResources/TestResources/MP/CliRegression/RDL30v/WirelessConfigResource_R4.csv, WirelessConfigResourceTmpl,true
+Wireless Security R4, C:/IxResources/TestResources/MP/CliRegression/RDL30v/WirelessSecurityResource_R4.csv, WirelessSecurityResourceTmpl,true
+User Management R4, C:/IxResources/TestResources/MP/CliRegression/RDL30v/UsersMgmtResource_R4.csv, WirelessSecurityResourceTmpl,true
+System Config R4, C:/IxResources/TestResources/MP/CliRegression/RDL30v/SysConfigResource_R4.csv, SysConfigResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 3|7|14_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_3714_CP8.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 3|7|14_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_3714_CP8.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+Provisioning Links R4 5|10|20_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_51020_CP8.csv, WirelessSecurityResourceTmpl,true
+Provisioning Groups R4 5|10|20_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_51020_CP8.csv, WirelessSecurityResourceTmpl,true
+Clear, C:/IxResources/TestResources/MP/CliRegression/RDL30v/Clear.csv, WirelessSecurityResourceTmpl,true
+ProvisionLinks_R4_smallch_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionLinks_R4_smallch_CP8.csv, WirelessSecurityResourceTmpl,true
+ProvisionGroups_R4_smallch_CP8, C:/IxResources/TestResources/MP/CliRegression/RDL30v/ProvisionGroups_R4_smallch_CP8.csv, WirelessSecurityResourceTmpl,true

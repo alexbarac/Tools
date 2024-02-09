@@ -1,0 +1,24 @@
+TestId,Command,Expected Response
+1,set syslog off,
+1,set syslog,off
+1,set syslog on,
+1,set syslog,on
+1,set syslogip 192.168.25.22,
+1,set syslogip,192.168.25.22
+1,set sysname Connectx,
+1,set sysname Connectxxx,
+1,set sysname,Connectxxx
+1,set sysdetails Redline1,
+1,set sysdetails Redline2,
+1,set sysdetails,Redline2
+1,set sysloc CraiovaCity1,
+1,set sysloc,CraiovaCity1
+1,set sysloc CraiovaCity,
+1,set sysloc,CraiovaCity
+1,set syscontact Alex1,
+1,set syscontact,Alex1
+1,set syscontact Alex2,
+1,set syscontact,Alex2
+1,get mac,
+1,get swver,
+2,get sysuptime,

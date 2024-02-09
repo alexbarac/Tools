@@ -1,0 +1,209 @@
+TestId,Command,Expected Response
+1,set serial data1 alias testalias,
+2,set serial data1 alias,testalias
+3,set serial data1 stopbits 1,
+4,set serial data1 stopbits,stopbits                        = 1
+5,set serial data1 stopbits 2,
+6,set serial data1 stopbits,stopbits                        = 2
+7,set serial data1 baudrate 75,
+8,set serial data1 baudrate,baudrate                        = 75
+7,set serial data1 baudrate 110,
+8,set serial data1 baudrate,baudrate                        = 110
+7,set serial data1 baudrate 134,
+8,set serial data1 baudrate,baudrate                        = 134
+7,set serial data1 baudrate 150,
+8,set serial data1 baudrate,baudrate                        = 150
+7,set serial data1 baudrate 200,
+8,set serial data1 baudrate,baudrate                        = 200
+7,set serial data1 baudrate 200,
+8,set serial data1 baudrate,baudrate                        = 200
+7,set serial data1 baudrate 300,
+8,set serial data1 baudrate,baudrate                        = 300
+7,set serial data1 baudrate 600,
+8,set serial data1 baudrate,baudrate                        = 600
+7,set serial data1 baudrate 1200,
+8,set serial data1 baudrate,baudrate                        = 1200
+7,set serial data1 baudrate 1800,
+8,set serial data1 baudrate,baudrate                        = 1800
+7,set serial data1 baudrate 2400,
+8,set serial data1 baudrate,baudrate                        = 2400
+7,set serial data1 baudrate 4800,
+8,set serial data1 baudrate,baudrate                        = 4800
+7,set serial data1 baudrate 9600,
+8,set serial data1 baudrate,baudrate                        = 9600
+7,set serial data1 baudrate 19200,
+8,set serial data1 baudrate,baudrate                        = 19200
+7,set serial data1 baudrate 38400,
+8,set serial data1 baudrate,baudrate                        = 38400
+7,set serial data1 baudrate 57600,
+8,set serial data1 baudrate,baudrate                        = 57600
+7,set serial data1 baudrate 57600,
+8,set serial data1 baudrate,baudrate                        = 57600
+7,set serial data1 baudrate 115200,
+8,set serial data1 baudrate,baudrate                        = 115200
+7,set serial data1 parity even,
+7,set serial data1 parity,even
+7,set serial data1 parity odd,
+7,set serial data1 parity,odd
+7,set serial data1 parity none,
+7,set serial data1 parity,none
+3,set serial data1 databits 5,
+4,set serial data1 databits,databits                        = 5
+3,set serial data1 databits 6,
+4,set serial data1 databits,databits                        = 6
+3,set serial data1 databits 7,
+4,set serial data1 databits,databits                        = 7
+3,set serial data1 databits 8,
+4,set serial data1 databits,databits                        = 8
+3,set serial data1 interface rs232,
+4,set serial data1 interface,rs232
+3,set serial data1 interface rs422,
+4,set serial data1 interface,rs422
+3,set serial data1 interface rs232,
+4,set serial data1 interface,rs232
+3,set serial data1 interface rs232,
+4,set serial data1 interface,rs232
+3,set serial data1 interface rs485-4w,
+4,set serial data1 interface,rs485-4w
+3,set serial data1 interface rs485-2w,
+4,set serial data1 interface,rs485-2w
+3,set serial data1 interface loopback,
+4,set serial data1 interface,loopback
+1,set serial data2 alias testalias,
+2,set serial data2 alias,testalias
+3,set serial data2 stopbits 1,
+4,set serial data2 stopbits,stopbits                        = 1
+5,set serial data2 stopbits 2,
+6,set serial data2 stopbits,stopbits                        = 2
+7,set serial data2 baudrate 75,
+8,set serial data2 baudrate,baudrate                        = 75
+7,set serial data2 baudrate 110,
+8,set serial data2 baudrate,baudrate                        = 110
+7,set serial data2 baudrate 134,
+8,set serial data2 baudrate,baudrate                        = 134
+7,set serial data2 baudrate 150,
+8,set serial data2 baudrate,baudrate                        = 150
+7,set serial data2 baudrate 200,
+8,set serial data2 baudrate,baudrate                        = 200
+7,set serial data2 baudrate 200,
+8,set serial data2 baudrate,baudrate                        = 200
+7,set serial data2 baudrate 300,
+8,set serial data2 baudrate,baudrate                        = 300
+7,set serial data2 baudrate 600,
+8,set serial data2 baudrate,baudrate                        = 600
+7,set serial data2 baudrate 1200,
+8,set serial data2 baudrate,baudrate                        = 1200
+7,set serial data2 baudrate 1800,
+8,set serial data2 baudrate,baudrate                        = 1800
+7,set serial data2 baudrate 2400,
+8,set serial data2 baudrate,baudrate                        = 2400
+7,set serial data2 baudrate 4800,
+8,set serial data2 baudrate,baudrate                        = 4800
+7,set serial data2 baudrate 9600,
+8,set serial data2 baudrate,baudrate                        = 9600
+7,set serial data2 baudrate 19200,
+8,set serial data2 baudrate,baudrate                        = 19200
+7,set serial data2 baudrate 38400,
+8,set serial data2 baudrate,baudrate                        = 38400
+7,set serial data2 baudrate 57600,
+8,set serial data2 baudrate,baudrate                        = 57600
+7,set serial data2 baudrate 57600,
+8,set serial data2 baudrate,baudrate                        = 57600
+7,set serial data2 baudrate 115200,
+8,set serial data2 baudrate,baudrate                        = 115200
+7,set serial data2 parity even,
+7,set serial data2 parity,even
+7,set serial data2 parity odd,
+7,set serial data2 parity,odd
+7,set serial data2 parity none,
+7,set serial data2 parity,none
+3,set serial data2 databits 5,
+4,set serial data2 databits,databits                        = 5
+3,set serial data2 databits 6,
+4,set serial data2 databits,databits                        = 6
+3,set serial data2 databits 7,
+4,set serial data2 databits,databits                        = 7
+3,set serial data2 databits 8,
+4,set serial data2 databits,databits                        = 8
+3,set serial data2 interface rs232,
+4,set serial data2 interface,s232
+3,set serial data2 interface rs422,
+4,set serial data2 interface,rs422
+3,set serial data2 interface rs232,
+4,set serial data2 interface,rs232
+3,set serial data2 interface rs232,
+4,set serial data2 interface,rs232
+3,set serial data2 interface rs485-4w,
+4,set serial data2 interface,rs485-4w
+3,set serial data2 interface rs485-2w,
+4,set serial data2 interface,rs485-2w
+3,set serial data2 interface loopback,
+4,set serial data2 interface,loopback
+1,set serial console alias testalias,
+2,set serial console alias,testalias
+3,set serial console stopbits 1,
+4,set serial console stopbits,stopbits                        = 1
+5,set serial console stopbits 2,
+6,set serial console stopbits,stopbits                        = 2
+7,set serial console baudrate 75,
+8,set serial console baudrate,baudrate                        = 75
+7,set serial console baudrate 110,
+8,set serial console baudrate,baudrate                        = 110
+7,set serial console baudrate 134,
+8,set serial console baudrate,baudrate                        = 134
+7,set serial console baudrate 150,
+8,set serial console baudrate,baudrate                        = 150
+7,set serial console baudrate 200,
+8,set serial console baudrate,baudrate                        = 200
+7,set serial console baudrate 300,
+8,set serial console baudrate,baudrate                        = 300
+7,set serial console baudrate 600,
+8,set serial console baudrate,baudrate                        = 600
+7,set serial console baudrate 1200,
+8,set serial console baudrate,baudrate                        = 1200
+7,set serial console baudrate 1800,
+8,set serial console baudrate,baudrate                        = 1800
+7,set serial console baudrate 2400,
+8,set serial console baudrate,baudrate                        = 2400
+7,set serial console baudrate 4800,
+8,set serial console baudrate,baudrate                        = 4800
+7,set serial console baudrate 9600,
+8,set serial console baudrate,baudrate                        = 9600
+7,set serial console baudrate 19200,
+8,set serial console baudrate,baudrate                        = 19200
+7,set serial console baudrate 38400,
+8,set serial console baudrate,baudrate                        = 38400
+7,set serial console baudrate 57600,
+8,set serial console baudrate,baudrate                        = 57600
+7,set serial console baudrate 57600,
+8,set serial console baudrate,baudrate                        = 57600
+7,set serial console baudrate 115200,
+8,set serial console baudrate,baudrate                        = 115200
+7,set serial console parity even,
+7,set serial console parity,even
+7,set serial console parity odd,
+7,set serial console parity,odd
+7,set serial console parity none,
+7,set serial console parity,none
+3,set serial console databits 5,
+4,set serial console databits,databits                        = 5
+3,set serial console databits 6,
+4,set serial console databits,databits                        = 6
+3,set serial console databits 7,
+4,set serial console databits,databits                        = 7
+3,set serial console databits 8,
+4,set serial console databits,databits                        = 8
+3,set serial console interface rs232,
+4,set serial console interface,rs232
+3,set serial console interface rs422,
+4,set serial console interface,rs422
+3,set serial console interface rs232,
+4,set serial console interface,rs232
+3,set serial console interface rs232,
+4,set serial console interface,rs232
+3,set serial console interface rs485-4w,
+4,set serial console interface,rs485-4w
+3,set serial console interface rs485-2w,
+4,set serial console interface,rs485-2w
+3,set serial console interface loopback,
+4,set serial console interface,loopback

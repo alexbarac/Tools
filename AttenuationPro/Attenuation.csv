@@ -1,0 +1,5 @@
+TestId,Enable,Com,Freq,Spliter_port,Attenuation,Monitor_time(sec),Poll_time(sec)
+1,TRUE,8,3.3,1,0,6,2
+2,TRUE,8,3.3,2,0,6,2
+5,TRUE,8,3.3,1,10,6,2
+6,TRUE,8,3.3,2,10,6,2

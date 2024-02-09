@@ -1,0 +1,90 @@
+TestId,Command,Expected Response
+1,set vgateway 1 mode inactive,
+1,set vgateway 1 mode,inactive
+1,set vgateway 1 mode rawtcpserver,
+1,set vgateway 1 mode,rawtcpserver
+1,set vgateway 1 mode modbustcpserver,
+1,set vgateway 1 mode,modbustcpserver
+1,set vgateway 2 mode modbustcpserver,
+1,set vgateway 2 mode,modbustcpserver
+1,set vgateway 1 rawtcpserver datapacking packetlength 950,
+1,set vgateway 1 rawtcpserver datapacking packetlength,950
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable off,
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable,delimiter1enable                = off
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable on,
+1,set vgateway 1 rawtcpserver datapacking delimiter1enable,delimiter1enable                = on
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable off,
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable,delimiter2enable                = off
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable on,
+1,set vgateway 1 rawtcpserver datapacking delimiter2enable,delimiter2enable                = on
+1,set vgateway 1 rawtcpserver datapacking delimiter1 0xaa,
+1,set vgateway 1 rawtcpserver datapacking delimiter1,0xaa
+1,set vgateway 1 rawtcpserver datapacking delimiter2 0xaf,
+1,set vgateway 1 rawtcpserver datapacking delimiter2,0xaf
+1,set vgateway 1 rawtcpserver datapacking delimiteraction act1,
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,act1
+1,set vgateway 1 rawtcpserver datapacking delimiteraction act2,
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,act2
+1,set vgateway 1 rawtcpserver datapacking delimiteraction nothing,
+1,set vgateway 1 rawtcpserver datapacking delimiteraction,nothing
+1,set vgateway 1 rawtcpserver datapacking forcetransmit 300,
+1,set vgateway 1 rawtcpserver datapacking forcetransmit 200,
+1,set vgateway 1 rawtcpserver datapacking forcetransmit,200
+1,set vgateway 1 rawtcpserver inactivitytime 10,
+1,set vgateway 1 rawtcpserver inactivitytime 2,
+1,set vgateway 1 rawtcpserver inactivitytime,2
+1,set vgateway 1 rawtcpserver localport 5500,
+1,set vgateway 1 rawtcpserver localport 5000,
+1,set vgateway 1 rawtcpserver localport,5000
+1,set vgateway 1 rawtcpserver maxconnections 5,
+1,set vgateway 1 rawtcpserver maxconnections 6,
+1,set vgateway 1 rawtcpserver maxconnections,6
+1,set vgateway 1 serialport data1,
+1,set vgateway 1 serialport,data1
+1,set vgateway 1 serialport data2,
+1,set vgateway 1 serialport,data2
+1,set vgateway 1 serialport unassigned,
+1,set vgateway 1 serialport,unassigned
+1,set vgateway 2 mode inactive,
+1,set vgateway 2 mode,inactive
+1,set vgateway 2 mode rawtcpserver,
+1,set vgateway 2 mode,rawtcpserver
+1,set vgateway 2 rawtcpserver datapacking packetlength 950,
+1,set vgateway 2 rawtcpserver datapacking packetlength,950
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable off,
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable,delimiter1enable                = off
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable on,
+1,set vgateway 2 rawtcpserver datapacking delimiter1enable,delimiter1enable                = on
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable off,
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable,delimiter2enable                = off
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable on,
+1,set vgateway 2 rawtcpserver datapacking delimiter2enable,delimiter2enable                = on
+1,set vgateway 2 rawtcpserver datapacking delimiter1 0xaa,
+1,set vgateway 2 rawtcpserver datapacking delimiter1,0xaa
+1,set vgateway 2 rawtcpserver datapacking delimiter2 0xaf,
+1,set vgateway 2 rawtcpserver datapacking delimiter2,0xaf
+1,set vgateway 2 rawtcpserver datapacking delimiteraction act1,
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,act1
+1,set vgateway 2 rawtcpserver datapacking delimiteraction act2,
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,act2
+1,set vgateway 2 rawtcpserver datapacking delimiteraction nothing,
+1,set vgateway 2 rawtcpserver datapacking delimiteraction,nothing
+1,set vgateway 2 rawtcpserver datapacking forcetransmit 300,
+1,set vgateway 2 rawtcpserver datapacking forcetransmit 200,
+1,set vgateway 2 rawtcpserver datapacking forcetransmit,200
+1,set vgateway 2 rawtcpserver inactivitytime 10,
+1,set vgateway 2 rawtcpserver inactivitytime 2,
+1,set vgateway 2 rawtcpserver inactivitytime,2
+1,set vgateway 2 rawtcpserver localport 5500,
+1,set vgateway 2 rawtcpserver localport,5500
+1,set vgateway 2 rawtcpserver localport 5000,
+1,set vgateway 2 rawtcpserver localport,5000
+1,set vgateway 2 rawtcpserver maxconnections 5,
+1,set vgateway 2 rawtcpserver maxconnections 6,
+1,set vgateway 2 rawtcpserver maxconnections,6
+1,set vgateway 2 serialport data1,
+1,set vgateway 2 serialport,data1
+1,set vgateway 2 serialport data2,
+1,set vgateway 2 serialport,data2
+1,set vgateway 2 serialport unassigned,
+1,set vgateway 2 serialport,unassigned

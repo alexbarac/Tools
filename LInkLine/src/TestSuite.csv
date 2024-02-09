@@ -1,0 +1,17 @@
+TestId,Enable,DeviceIp,DeviceType,TestFile,Description
+1,false,10.117.64.2,Connect,/home/abarac/workspace/Connect_CLI/src/Serial Port Settings.csv,Serial Port Settings
+2,false,10.117.64.2,Connect,/home/abarac/workspace/Connect_CLI/src/Gateway Settings.csv,Gateway Settings
+2,false,10.117.64.2,Connect,/home/abarac/workspace/Connect_CLI/src/System Configuration.csv,System Configuration
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/Clear.csv,Clear
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionLinks_R4_3714.csv,ProvisionLinks_R4_3714
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionGroups_R4_3714.csv,ProvisionGroups_R4_3714
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionConnections_R4_3714.csv,ProvisionConnections_R4_3714
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionLinks_R4_51020.csv,ProvisionLinks_R4_51020
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionGroups_R4_51020.csv,ProvisionGroups_R4_51020
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ProvisionConnections_R4_51020.csv,ProvisionConnections_R4_51020
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ALL_CP8_CHSIZE1.csv,ALL_CP8_CHSIZE1
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/ALL_CP8_CHSIZE2.csv,ALL_CP8_CHSIZE2
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/WirelessConfigResource_R4.csv,WirelessConfigResource_R4
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/WirelessSecurityResource_R4.csv, WirelessSecurityResource_R4
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/SysConfigResource_R4.csv,SysConfigResource_R4
+2,true,10.101.40.1,RDL3000,/home/abarac/workspace/Connect_CLI/src/RDL_225v/UsersMgmtResource_R4.csv,UsersMgmtResource_R4

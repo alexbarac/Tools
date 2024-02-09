@@ -1,0 +1,52 @@
+copy killcmd.txt gokill.txt
+s16 8 3.3 1 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 2 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 3 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 4 30
+copy killcmd.txt gokill.txt
+s16 9 3.3 3 30
+copy killcmd.txt gokill.txt
+s16 9 3.3 4 30
+timeout /t  10
+copy killcmd.txt gokill.txt
+s16 8 3.3 1 33
+copy killcmd.txt gokill.txt
+s16 8 3.3 2 33
+copy killcmd.txt gokill.txt
+s16 8 3.3 3 33
+copy killcmd.txt gokill.txt
+s16 8 3.3 4 33
+copy killcmd.txt gokill.txt
+s16 9 3.3 3 33
+copy killcmd.txt gokill.txt
+s16 9 3.3 4 33
+timeout /t  10
+copy killcmd.txt gokill.txt
+s16 8 3.3 1 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 2 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 3 30
+copy killcmd.txt gokill.txt
+s16 8 3.3 4 30
+copy killcmd.txt gokill.txt
+s16 9 3.3 3 30
+copy killcmd.txt gokill.txt
+s16 9 3.3 4 30
+timeout /t  10
+copy killcmd.txt gokill.txt
+s16 8 3.3 1 25
+copy killcmd.txt gokill.txt
+s16 8 3.3 2 25
+copy killcmd.txt gokill.txt
+s16 8 3.3 3 25
+copy killcmd.txt gokill.txt
+s16 8 3.3 4 25
+copy killcmd.txt gokill.txt
+s16 9 3.3 3 25
+copy killcmd.txt gokill.txt
+s16 9 3.3 4 25
+timeout /t  10
