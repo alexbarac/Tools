@@ -6,7 +6,7 @@ class Connection:
     #host_name = "ec2-35-153-37-10.compute-1.amazonaws.com"
     host_name = "ec2-54-226-173-175.compute-1.amazonaws.com"
     port = '22'
-    username = "ec2-user"
+    username = test"
 
     def __init__(self, values):
         self.branch = values[0]
